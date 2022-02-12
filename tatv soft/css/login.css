@@ -1,0 +1,54 @@
+.buttonlogin{
+    margin-top: 60px;
+    margin-bottom: 80px;
+    width: 100px;
+    height: 45px;
+    background-color: #f14d54;
+    color: white;
+    border: none;
+}
+.buttonCreate{
+   margin-top: 165px;
+   margin-bottom: 80px;
+   width: 220px;
+   height: 45px;
+   background-color: #f14d54;
+   color: white;
+   border: none;
+}
+
+/* Header CSS */
+.logo-img{
+   height: auto;
+   width: 200px;
+}
+.header-class{
+   height: 92px;
+   align-items: center;
+   justify-content: space-between;
+}
+.input-search{
+   width: 422px;
+   height: 40px;
+   color: rgb(33,33,33);
+}
+.btn-search{
+   height: 40px;
+   font-size: 16px;
+   max-width: 129px;
+   background-color: #80bf32;
+   color: white;
+}
+.bg-form{
+   height: 80px;
+}
+
+/* bread crumb */
+.breadcrumb-wrapper ol { justify-content: center; display: flex; padding: 0; flex-wrap: wrap; list-style: none; align-items: center; }
+.breadcrumb-wrapper ol li a { justify-content: center; font-size: 18px; color: #333; }
+.breadcrumb-wrapper ol li a:hover { text-decoration: none; color: #0b2e58 }
+.breadcrumb-wrapper ol li+li { position: relative; padding-left: 20px; }
+.breadcrumb-wrapper ol li+li:before { position: absolute; content: ""; background-image: url(../images/breadcrumb-arrow.svg); left: 6px; background-repeat: no-repeat; background-size: 10px; background-position: center; height: 14px; width: 14px; top: 6px; }
+.breadcrumb-wrapper ol li p { justify-content: center; font-size: 18px; color: #f14d54; }
+
+.container { max-width: 1240px; width: 100%; padding: 0 50px; margin: 0 auto; }

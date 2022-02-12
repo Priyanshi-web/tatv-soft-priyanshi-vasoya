@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no" />
+  <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon.png" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-chrome-384x384.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-chrome-192x192.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/mstile-150x150.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="theme-color" content="#ffffff" />
+  <title>Tatvasoft</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="wrapper" style="width: 1200px; margin: 0 auto; border-top: 10px solid #D04C4C;">
+    <header class="site-header" id="header">
+      <div class="site-header-wrapper">
+        <div class="container">
+          <div class="header-wrapper">
+            <div class="logo-wrapper">
+              <a class="site-logo" title="logo" href="#"><img src="images/site-logo.svg" alt="Tatvasoft" /></a>
+            </div>
+            <div class="nav-wrapper">
+              <div class="top-right-bar">
+                <ul class="top-nav-bar">
+                  <li>
+                    <a title="Login" href="#">Login</a>
+                  </li>
+                  <li>
+                    <a title="Register" href="#">Register</a>
+                  </li>
+                </ul>
+                <ul class="cart-country-wrap">
+                  <li class="cart-link">
+                    <a title="Cart" href="#"><img src="images/cart.svg" alt="cart" /><span>0</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-search-wrapper">
+        <div class="container">
+          <div class="header-search-outer">
+            <div class="header-search-inner">
+              <div class="text-wrapper">
+                <div class="form-group-wrapper">
+                  <div class="form-group input-group">
+                    <label style="display: none" for="search-text">Search</label>
+
+                    <select class="custom-select" id="inputGroupSelect04">
+                      <option selected>What are you looking for...</option>
+                      <option value="1" style="font-size: 15px;font-family: Roboto;color: #414141;" class="font-weight-bold">No product found
+                      </option>
+                      <option value="2" class="font-weight-bold" style="font-size: 15px;font-family: Roboto;color: #414141;">Loading....</option>
+
+                      <ul class="related-product-list">
+                        <option value="3" style="font-size: 15px;font-family: Roboto;color: #414141;">
+                          <li>
+                            <div class="inner-block">
+                              <div class="left-col">
+                                <span class="title font-weight-bold">Title 1</span><span class="category">Category</span>
+                                <p>Description</p>
+                              </div>
+                              <div class="right-col">
+                                <span class="price">1000</span><a href="#" class="addtocart">Add to cart</a>
+                              </div>
+                            </div>
+                          </li>
+                        </option>
+                        <option value="3" style="font-size: 15px;font-family: Roboto;color: #414141;">
+                          <li>
+                            <div class="inner-block">
+                              <div class="left-col">
+                                <span class="title font-weight-bold">Title 1</span><span class="category">Category</span>
+                                <p>Description</p>
+                              </div>
+                              <div class="right-col">
+                                <span class="price">1000</span><a href="#" class="addtocart">Add to cart</a>
+                              </div>
+                            </div>
+                          </li>
+                        </option>
+                        <option value="3" style="font-size: 15px;font-family: Roboto;color: #414141;">
+                          <li>
+                            <div class="inner-block">
+                              <div class="left-col">
+                                <span class="title font-weight-bold">Title 1</span><span class="category">Category</span>
+                                <p>Description</p>
+                              </div>
+                              <div class="right-col">
+                                <span class="price">1000</span><a href="#" class="addtocart">Add to cart</a>
+                              </div>
+                            </div>
+                          </li>
+                        </option>
+                        <option value="3" style="font-size: 15px;font-family: Roboto;color: #414141;">
+                          <li>
+                            <div class="inner-block">
+                              <div class="left-col" style="float: left;">
+                                <span class="title font-weight-bold">Title 1</span><span class="category">Category</span>
+                                <p>Description</p>
+                              </div>
+                              <div class="right-col" style="float: right;">
+                                <span class="price">1000</span></br><a href="#" class="addtocart">Add to
+                                  cart</a>
+                              </div>
+                            </div>
+                          </li>
+                      </ul>
+                      </option>
+                    </select>
+                  </div>
+                </div>
+                <!--<div class="product-listing">
+                  <p class="no-product">No product found</p>
+                  <p class="loading">Loading....</p>
+
+                </div>-->
+              </div>
+              <button class="btn green-btn" type="submit">
+                <em><img src="images/search.svg" alt="search" /></em>Search
+              </button>
+              <button class="btn blue-btn" type="submit">Cancel</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="card-wrapper">
+        <div class="cointainer">
+          <h2 style="text-align: center;margin: 50px 0 25px 0;">Product Listing</h2>
+          <div class="product-item">
+            <div class="list-sort item d-flex justify-content-between" >
+              <div class="total-items">
+                <h5 class="font-weight-bold"
+                  style="font-size: 18px;font-family: Roboto;margin: 50px 0 45px 0;color: #414141;">Product
+                  Name - 14366 items</h5>
+              </div>
+              <div class="sort-by d-flex">
+                <h6 style="margin-top: 6px;">sort-by</h6>
+                <div class="input-group" style="height: 40px;width: 200px;">
+                  <select class="custom-select" id="inputGroupSelect04">
+                    <option selected>Choose...</option>
+                    <option value="1">a-z</option>
+                    <option value="2">1-10</option>
+                    <option value="3">z-a</option>
+                    <option value="3">10-1</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="card d-flex"  >
+              <div class="card-deck" style="margin-bottom: 30px;">
+                <div class="card">
+                  <img class="card-img-top" src="images/dummy-image.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h2 class="card-title">Product Title</h2>
+                    <h6>Lorem</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet </br>consectetur adipisicing
+                      elit.Hic</br> qui facere voluptas quibusdam,</br>repellet quia ex blanditiis</br>
+                      recusandae odio sint!</p>
+                    <p>MRP <strike>₹1000</strike></p>
+                    <h4>₹800</h4>
+                  </div>
+                  <!--<div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>-->
+                  <button type="button" class="btn btn-danger btn-lg btn-block">ADD TO CART</button>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="images/dummy-image.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h2 class="card-title">Product Title</h2>
+                    <h6>Lorem</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet </br>consectetur adipisicing
+                      elit.Hic</br> qui facere voluptas quibusdam,</br>repellet quia ex blanditiis</br>
+                      recusandae odio sint!</p>
+                    <p>MRP <strike>₹1000</strike></p>
+                    <h4>₹800</h4>
+                  </div>
+                  <!--<div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>-->
+                  <button type="button" class="btn btn-danger btn-lg btn-block">ADD TO CART</button>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="images/dummy-image.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h2 class="card-title">Product Title</h2>
+                    <h6>Lorem</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet </br>consectetur adipisicing
+                      elit.Hic</br> qui facere voluptas quibusdam,</br>repellet quia ex blanditiis</br>
+                      recusandae odio sint!</p>
+                    <p>MRP <strike>₹1000</strike></p>
+                    <h4>₹800</h4>
+                  </div>
+                  <!--<div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                          </div>-->
+                  <button type="button" class="btn btn-danger btn-lg btn-block">ADD TO CART</button>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="images/dummy-image.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h2 class="card-title">Product Title</h2>
+                    <h6>Lorem</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet </br>consectetur adipisicing
+                      elit.Hic</br> qui facere voluptas quibusdam,</br>repellet quia ex blanditiis</br>
+                      recusandae odio sint!</p>
+                    <p>MRP <strike>₹1000</strike></p>
+                    <h4>₹800</h4>
+                  </div>
+                  <!--<div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>-->
+                  <button type="button" class="btn btn-danger btn-lg btn-block">ADD TO CART</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card d-flex"  >
+              <div class="card-deck" style="margin-bottom: 30px;">
+                <div class="card">
+                  <img class="card-img-top" src="images/dummy-image.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h2 class="card-title">Product Title</h2>
+                    <h6>Lorem</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet </br>consectetur adipisicing
+                      elit.Hic</br> qui facere voluptas quibusdam,</br>repellet quia ex blanditiis</br>
+                      recusandae odio sint!</p>
+                    <p>MRP <strike>₹1000</strike></p>
+                    <h4>₹800</h4>
+                  </div>
+                  <!--<div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>-->
+                  <button type="button" class="btn btn-danger btn-lg btn-block">ADD TO CART</button>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="images/dummy-image.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h2 class="card-title">Product Title</h2>
+                    <h6>Lorem</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet </br>consectetur adipisicing
+                      elit.Hic</br> qui facere voluptas quibusdam,</br>repellet quia ex blanditiis</br>
+                      recusandae odio sint!</p>
+                    <p>MRP <strike>₹1000</strike></p>
+                    <h4>₹800</h4>
+                  </div>
+                  <!--<div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>-->
+                  <button type="button" class="btn btn-danger btn-lg btn-block">ADD TO CART</button>
+                </div>
+                <div class="card">
+                  
+                </div>
+                <div class="card">
+                  
+                </div>
+                
+              </div>
+            </div>
+            
+            
+            <div class="pagination d-flex m-5 justify-content-center">
+              <nav aria-label="Page navigation example ">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">4</a></li>
+                  <li class="page-item"><a class="page-link" href="#">5</a></li>
+                  <li class="page-item"><a class="page-link" href="#">6</a></li>
+                  <li class="page-item"><a class="page-link" href="#">7</a></li>
+                  <li class="page-item"><a class="page-link" href="#">8</a></li>
+                  <li class="page-item"><a class="page-link" href="#">9</a></li>
+                  <li class="page-item"><a class="page-link" href="#">10</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+  
+            </div>
+      </section>
+    </main>
+
+
+  </div>
+  <footer class="site-footer">
+    <div class="footer-wrapper">
+        <div class="container">
+            <div class="logo-wrapper">
+                <a class="site-logo" title="logo" href="#"><img src="images/site-logo.svg" alt="Tatvasoft"
+                        width="120" height="120" /></a>
+            </div>
+            <p class="copyright-text m-3">
+                © 2022 Tatvasoft.com. All rights reserved.
+            </p>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
